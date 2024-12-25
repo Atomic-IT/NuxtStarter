@@ -74,7 +74,7 @@ Possible problems:
 
 4. ```npm run postinstall``` &nbsp; - &nbsp; Nuxt postinstall
 
-5. ```npm run prepare husky``` &nbsp; - &nbsp; Husky postinstall
+5. ```npm run prepare:husky``` &nbsp; - &nbsp; Husky postinstall
 
 6. ```npm run check``` &nbsp; - &nbsp; Prettier check
 

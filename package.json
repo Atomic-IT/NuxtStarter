@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "prepare husky": "husky",
+    "prepare:husky": "husky",
     "check": "npx prettier . --check",
     "write": "npx prettier . --write",
     "lint": "eslint \"**/**/*.{js,ts,vue}\"",
