@@ -5,5 +5,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/stylelint-module',
+    '@nuxt/test-utils/module'
   ]
 })
