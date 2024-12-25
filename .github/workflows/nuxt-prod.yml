@@ -64,7 +64,7 @@ jobs:
   # ESLint
   lint:
     runs-on: ubuntu-latest
-    needs: setup
+    needs: postinstall
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -77,6 +77,23 @@ jobs:
 
       - name: Lint
         run: npm run postinstall && npm run lint
+
+  # Types check
+  typeslint:
+    runs-on: ubuntu-latest
+    needs: postinstall
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Restore Node.js Modules Cache
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+
+      - name: Typeslint
+        run: npm run postinstall && npm run typeslint
 
   # Build Assets
   build:

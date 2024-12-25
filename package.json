@@ -12,7 +12,8 @@
     "check": "npx prettier . --check",
     "write": "npx prettier . --write",
     "lint": "eslint \"**/**/*.{js,ts,vue}\"",
-    "lint --fix": "eslint \"**/**/*.{js,ts,vue}\" --fix"
+    "lint --fix": "eslint \"**/**/*.{js,ts,vue}\" --fix,",
+    "typeslint": "tsc --noemit"
   },
   "dependencies": {
     "nuxt": "^3.14.1592",
