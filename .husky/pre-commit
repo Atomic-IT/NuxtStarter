@@ -1,3 +1,4 @@
 npm run postinstall
+npm run check
 npm run build
 npm run generate
