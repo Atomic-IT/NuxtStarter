@@ -112,7 +112,7 @@ jobs:
       - name: Stylelint
         run: npm run slint
 
-  # Build Assets
+  # Build Assets & Pre-render from nuxt.config.ts
   build:
     runs-on: ubuntu-latest
     needs: setup
@@ -126,25 +126,8 @@ jobs:
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
 
-      - name: Build Assets
+      - name: Build Assets with pre-render
         run: npm run build
-
-  # Nuxt pre-render html
-  generate:
-    runs-on: ubuntu-latest
-    needs: postinstall
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Restore Node.js Modules
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
-
-      - name: Generate Pre-render
-        run: npm run postinstall && npm run generate
 
   # Run Vitests
   test:

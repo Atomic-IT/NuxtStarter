@@ -5,7 +5,14 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/stylelint-module',
-    '@nuxt/test-utils/module'
+    '@nuxt/test-utils/module',
+    '@nuxthub/core'
   ],
-  ssr: true
+  ssr: true,
+  nitro: {
+    prerender: {
+      routes: ['/'],
+      crawlLinks: true
+    }
+  }
 })
