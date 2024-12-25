@@ -68,33 +68,31 @@ Possible problems:
 
 1. ```npm run dev```  &nbsp; - &nbsp; Nuxt dev
 
-2. ```npm run build``` &nbsp; - &nbsp; Nuxt build
+2. ```npm run build``` &nbsp; - &nbsp; Nuxt build with pre-render
 
-3. ```npm run generate``` &nbsp; - &nbsp; Nuxt prerender
+3. ```npm run preview``` &nbsp; - &nbsp; Nuxt preview
 
-4. ```npm run preview``` &nbsp; - &nbsp; Nuxt preview
+4. ```npm run postinstall``` &nbsp; - &nbsp; Nuxt postinstall
 
-5. ```npm run postinstall``` &nbsp; - &nbsp; Nuxt postinstall
+5. ```npm run prepare husky``` &nbsp; - &nbsp; Husky postinstall
 
-6. ```npm run prepare husky``` &nbsp; - &nbsp; Husky postinstall
+6. ```npm run check``` &nbsp; - &nbsp; Prettier check
 
-7. ```npm run check``` &nbsp; - &nbsp; Prettier check
+7. ```npm run write``` &nbsp; - &nbsp; Prettier write
 
-8. ```npm run write``` &nbsp; - &nbsp; Prettier write
+8. ```npm run lint``` &nbsp; - &nbsp; ESLint check
 
-9. ```npm run lint``` &nbsp; - &nbsp; ESLint check
+9. ```npm run lint --fix``` &nbsp; - &nbsp; ESLint fix
 
-10. ```npm run lint --fix``` &nbsp; - &nbsp; ESLint fix
+10. ```npm run slint``` &nbsp; - &nbsp; Stylelint check
 
-11. ```npm run slint``` &nbsp; - &nbsp; Stylelint check
+11. ```npm run test``` &nbsp; - &nbsp; Vitests run
 
-12. ```npm run test``` &nbsp; - &nbsp; Vitests run
+12. ```npm run test:coverage``` &nbsp; - &nbsp; Vitests run with coverage
 
-13. ```npm run test:coverage``` &nbsp; - &nbsp; Vitests run with coverage
+13. ```npm run test:watch``` &nbsp; - &nbsp; Vitests run with watch changes
 
-14. ```npm run test:watch``` &nbsp; - &nbsp; Vitests run with watch changes
-
-15. ```npm run typeslint``` &nbsp; - &nbsp; Typeslint check
+14. ```npm run typeslint``` &nbsp; - &nbsp; Typeslint check
 
 
 <br><hr><br></details>
@@ -102,6 +100,7 @@ Possible problems:
 
 <details><summary> <h2> &nbsp; 🛠️ &nbsp; Tech Stack </h2> </summary> <br>
 <div align="center">
+  <img src="https://github.com/user-attachments/assets/f444bbc9-e1fd-4333-b174-4206ff19dac4" height="35" />
   <img src="https://skillicons.dev/icons?i=nuxtjs" height="35" />
   <img src="https://skillicons.dev/icons?i=vue" height="35" />
   <img src="https://skillicons.dev/icons?i=ts" height="35" />
