@@ -7,7 +7,6 @@ coverage
 .nuxt
 .nitro
 .cache
-.stylelintcache
 dist
 
 # Node dependencies
@@ -26,3 +25,11 @@ logs
 .env
 .env.*
 !.env.example
+
+.prettierrc
+.stylelintrc.json
+eslint.config.mjs
+nuxt.config.ts
+package*.json
+README.md
+tsconfig.json
