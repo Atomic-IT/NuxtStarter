@@ -27,9 +27,10 @@ logs
 !.env.example
 
 .prettierrc
-.stylelintrc.json
 eslint.config.mjs
 nuxt.config.ts
 package*.json
 README.md
 tsconfig.json
+
+*.vue
