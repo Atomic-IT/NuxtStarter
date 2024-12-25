@@ -27,6 +27,7 @@ logs
 !.env.example
 
 .prettierrc
+eslint.config.mjs
 nuxt.config.ts
 package*.json
 README.md
