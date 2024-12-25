@@ -3,6 +3,11 @@
   <h1>NuxtStarter<br><br></h1>
 </div>
 
+<br>
+
+This [Nuxt](https://nuxt.com/) template offers a fully integrated development workflow, designed to streamline your project setup and enhance code quality. Provides everything you need for a *fast*, **reliable**, and ***clean*** development experience, from local development to production deployment. [SSR](https://vuejs.org/guide/scaling-up/ssr.html) is also set by default.
+
+<br>
 
 <details><summary> <h2> &nbsp; <img src="https://github.com/user-attachments/assets/9053b681-831c-42a1-b8ba-a77f57cb8639" height=25/> &nbsp; Node </h2> </summary>
 
@@ -23,9 +28,11 @@ git clone https://github.com/Atomic-IT/NuxtStarter.git
 - Install modules and run project
 
 ```bash
-npm install
+npm i
 npm run dev
 ```
+
+- Your app is now accessible at http://localhost:3000
 
 <br><hr><br></details>
 
@@ -45,6 +52,14 @@ git clone https://github.com/Atomic-IT/NuxtStarter.git
 ```bash
 docker compose up --build -d
 ```
+
+- Your app is now accessible at http://localhost:3000
+
+<br><br>
+
+Possible problems:
+- Permission denied while trying to connect to the Docker - It's problem with user permissions, read about [post-install actions](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
+
 
 <br><hr><br></details>
 
@@ -73,15 +88,33 @@ docker compose up --build -d
 
 11. ```npm run slint``` &nbsp; - &nbsp; Stylelint check
 
-12. ```test``` &nbsp; - &nbsp; Vitests run
+12. ```npm run test``` &nbsp; - &nbsp; Vitests run
 
-13. ```test:coverage``` &nbsp; - &nbsp; Vitests run with coverage
+13. ```npm run test:coverage``` &nbsp; - &nbsp; Vitests run with coverage
 
-14. ```test:watch``` &nbsp; - &nbsp; Vitests run with watch changes
+14. ```npm run test:watch``` &nbsp; - &nbsp; Vitests run with watch changes
 
-15. ```typeslint``` &nbsp; - &nbsp; Typeslint check
+15. ```npm run typeslint``` &nbsp; - &nbsp; Typeslint check
 
 
 <br><hr><br></details>
+
+
+<details><summary> <h2> &nbsp; 🛠️ &nbsp; Tech Stack </h2> </summary> <br>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nuxtjs" height="35" />
+  <img src="https://skillicons.dev/icons?i=vue" height="35" />
+  <img src="https://skillicons.dev/icons?i=ts" height="35" />
+  <img src="https://skillicons.dev/icons?i=sass" height="35" />
+  <img src="https://skillicons.dev/icons?i=docker" height="35" />
+  <img src="https://skillicons.dev/icons?i=vitest" height="35" />
+  <img src="https://skillicons.dev/icons?i=github" height="35" />
+  <img src="https://github.com/SzymCode/SzymCode/assets/107359025/a983a634-3e81-4a11-9281-0ef0bacfd187" height="35" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="35" />
+  <img src="https://github.com/user-attachments/assets/ea4a5462-085b-4dd6-bf35-9f76cbcf3c35" height="35" />
+  <img src="https://github.com/SzymCode/SzymCode/assets/107359025/712ed3a9-e9fa-4782-acff-140a4970ba88" height="35" />
+</div>
+<hr><br></details>
+
 
 
