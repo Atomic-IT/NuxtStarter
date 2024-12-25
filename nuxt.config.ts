@@ -6,5 +6,6 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/stylelint-module',
     '@nuxt/test-utils/module'
-  ]
+  ],
+  ssr: true
 })
