@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxthub/core',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/html-validator',
+    '@nuxtjs/seo',
   ],
   ssr: true,
   nitro: {
