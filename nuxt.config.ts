@@ -14,7 +14,8 @@ export default defineNuxtConfig({
     '@nuxtjs/stylelint-module',
     'nuxt-link-checker',
     'nuxt-og-image',
-    'nuxt-schema-org'
+    'nuxt-schema-org',
+    'nuxt-seo-utils'
   ],
   ssr: true,
   nitro: {
