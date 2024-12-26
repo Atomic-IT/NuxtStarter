@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     '@nuxtjs/html-validator',
     '@nuxtjs/seo',
     '@nuxtjs/sitemap',
+    'nuxt-schema-org',
   ],
   ssr: true,
   nitro: {
@@ -39,5 +40,5 @@ export default defineNuxtConfig({
         },
       }
     }
-  },
+  }
 })
