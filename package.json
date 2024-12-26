@@ -21,9 +21,10 @@
   },
   "dependencies": {
     "@nuxthub/core": "0.8.10",
+    "@nuxtjs/robots": "5.1.0",
     "@nuxtjs/sitemap": "7.0.1",
     "nuxt": "3.14.1592",
-    "nuxt-og-image": "^4.0.2",
+    "nuxt-og-image": "4.0.2",
     "nuxt-schema-org": "4.0.4",
     "vue": "3.5.13",
     "vue-router": "4.5.0"

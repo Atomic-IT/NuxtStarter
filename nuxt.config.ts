@@ -7,13 +7,14 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/test-utils/module',
     '@nuxthub/core',
-    '@nuxtjs/stylelint-module',
     '@nuxtjs/html-validator',
+    '@nuxtjs/robots',
     '@nuxtjs/seo',
     '@nuxtjs/sitemap',
-    'nuxt-schema-org',
+    '@nuxtjs/stylelint-module',
     'nuxt-link-checker',
-    'nuxt-og-image'
+    'nuxt-og-image',
+    'nuxt-schema-org'
   ],
   ssr: true,
   nitro: {
