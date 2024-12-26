@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxtjs/sitemap',
     'nuxt-schema-org',
+    'nuxt-link-checker'
   ],
   ssr: true,
   nitro: {
