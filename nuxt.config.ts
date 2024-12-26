@@ -12,7 +12,8 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@nuxtjs/sitemap',
     'nuxt-schema-org',
-    'nuxt-link-checker'
+    'nuxt-link-checker',
+    'nuxt-og-image'
   ],
   ssr: true,
   nitro: {
