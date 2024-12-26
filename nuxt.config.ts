@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxtjs/stylelint-module',
     '@nuxtjs/html-validator',
     '@nuxtjs/seo',
+    '@nuxtjs/sitemap',
   ],
   ssr: true,
   nitro: {
