@@ -1,3 +1,4 @@
+public
 build
 coverage
 
@@ -26,6 +27,8 @@ logs
 .env.*
 !.env.example
 
+.github
+.husky
 .prettierrc
 .stylelintrc.json
 eslint.config.mjs
