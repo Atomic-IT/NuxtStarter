@@ -4,9 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/eslint',
-    '@nuxtjs/stylelint-module',
+    '@nuxt/fonts',
     '@nuxt/test-utils/module',
-    '@nuxthub/core'
+    '@nuxthub/core',
+    '@nuxtjs/stylelint-module',
   ],
   ssr: true,
   nitro: {
@@ -14,5 +15,5 @@ export default defineNuxtConfig({
       routes: ['/'],
       crawlLinks: true
     }
-  }
+  },
 })
