@@ -36,3 +36,4 @@ nuxt.config.ts
 package*.json
 README.md
 tsconfig.json
+vue-shims.d.ts
