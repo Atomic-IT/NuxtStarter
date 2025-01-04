@@ -47,5 +47,12 @@ export default defineNuxtConfig({
   },
   components: [
     { path: '~/components', extensions: ['vue'] }
-  ]
+  ],
+  htmlValidator: {
+    options: {
+      rules: {
+        'element-case': 'off'
+      }
+    }
+  }
 })
