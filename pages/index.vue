@@ -1,3 +1,5 @@
 <template>
-  <welcome />
+  <div id="index">
+    <welcome />
+  </div>
 </template>
